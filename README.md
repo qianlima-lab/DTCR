@@ -1,4 +1,4 @@
 # DTCR
-The paper "Learning Representations for Time Series Clustering" accepted by 2019 Neural Information Processing Systems (NeurIPS).
+The paper "Adversarial Dynamic Shapelet Network" accepted by Thirty-Fourth AAAI Conference on Artificial Intelligence (AAAI-20).
 # Code
 We will publish the source code soon...
