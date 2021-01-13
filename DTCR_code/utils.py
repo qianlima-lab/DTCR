@@ -48,7 +48,7 @@ def get_fake_sample(data):
             real_fake_labels[i, 0] = 1
         else:
             real_fake_labels[i, 1] = 1
-	return fake_data, real_fake_labels
+    return fake_data, real_fake_labels
 
 
 def _rnn_reformat(x, input_dims, n_steps):
