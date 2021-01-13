@@ -197,8 +197,7 @@ def run_model(train_data_filename, config):
 
     train_data, train_label = utils.load_data(train_data_filename)
 	
-    # config.batch_size = train_data.shape[0]
-    config.batch_size = 10
+    config.batch_size = train_data.shape[0]
     config.num_steps = train_data.shape[1]
     config.embedding_size = 1
 
